@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 
 const SecondPage = (props: PageProps) => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO title="Remembrance" />
     <h1>Remembrance Board</h1>
     <p>board will go here</p>
     <Link to="/">Go back to the homepage</Link>
