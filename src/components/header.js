@@ -23,7 +23,7 @@ const Header = ({ siteTitle }) => (
       </div>
       <h1>Bernard Edwin DeBar</h1>
       <p>March 6, 1931 &nbsp; <span style={{fontSize: `1.2em`}}>&#10013;</span> &nbsp; May 11, 2020</p>
-      <hr style={{ maxWidth: `253px`, margin: `10px auto` }} />
+      <hr style={{ maxWidth: `253px`, margin: `10px auto`, backgroundColor: `#423e3c` }} />
     </div>
   </header>
 )

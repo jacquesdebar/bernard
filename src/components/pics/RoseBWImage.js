@@ -16,7 +16,7 @@ import Img from "gatsby-image"
 const RoseBWImage = () => {
   const data = useStaticQuery(graphql`
     query {
-      rosebw: file(relativePath: { eq: "roseBW2.png" }) {
+      rosebw: file(relativePath: { eq: "roseBW3.png" }) {
         childImageSharp {
           fluid(maxWidth: 1500) {
             ...GatsbyImageSharpFluid
