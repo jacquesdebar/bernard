@@ -78,7 +78,7 @@ const Obituary = () => (
         </p>
         <p>
             Memorial donations: Union Gospel Mission, Dept. of Donor Services, 77 Ninth Street, St. Paul, MN
-            55101. 651-444-5801 or https://www.ugmtc.org/get-involved/give/
+            55101. 651-444-5801 or <a href="https://app.mobilecause.com/f/22sd/n">this link</a>.
         </p>
         <div style={{ display: `flex`, flexFlow: `row wrap`, justifyContent: `center` }}>
             <div style={{ width: `400px`, margin: `0 12px`, marginBottom: `36px`, padding: "12px" }}>
