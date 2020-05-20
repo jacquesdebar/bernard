@@ -13,10 +13,10 @@ import Img from "gatsby-image"
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-const RoseBWImage = () => {
+const ProfileImage = () => {
   const data = useStaticQuery(graphql`
     query {
-      rosebw: file(relativePath: { eq: "roseBWcircle.png" }) {
+      bubba: file(relativePath: { eq: "bubba.png" }) {
         childImageSharp {
           fluid(maxWidth: 1500) {
             ...GatsbyImageSharpFluid
@@ -26,7 +26,7 @@ const RoseBWImage = () => {
     }
   `)
 
-  return <Img fluid={data.rosebw.childImageSharp.fluid} />
+  return <Img fluid={data.bubba.childImageSharp.fluid} />
 }
 
-export default RoseBWImage
+export default ProfileImage

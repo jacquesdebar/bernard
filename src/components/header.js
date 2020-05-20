@@ -1,6 +1,6 @@
 import { Link } from "gatsby"
 import React from "react"
-import RoseBWImage from "./pics/RoseBWImage"
+import ProfileImage from "./pics/ProfileImage"
 
 const Header = ({ siteTitle }) => (
   <header
@@ -18,8 +18,8 @@ const Header = ({ siteTitle }) => (
       {/* <div style={{ width: `100px`, margin: `0 auto` }}>
         <RoseImage/>
       </div> */}
-      <div style={{ width: `140px`, margin: `0 auto`, marginBottom: `12px`, padding: "12px" }}>
-          <RoseBWImage />
+      <div style={{ width: `200px`, margin: `0 auto`, marginBottom: `12px`, padding: "12px" }}>
+          <ProfileImage />
       </div>
       <h1>Bernard Edwin DeBar</h1>
       <p>March 6, 1931 &nbsp; <span style={{fontSize: `1.2em`}}>&#10013;</span> &nbsp; May 11, 2020</p>
