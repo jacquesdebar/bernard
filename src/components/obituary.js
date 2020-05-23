@@ -1,11 +1,11 @@
 import React from 'react'
 
-import SiblingsImage from "./pics/FamilyImage"
+import SiblingsImage from "./pics/BoysImage"
 import SkatingImage from "./pics/SkatingImage"
 import SallieImage from "./pics/SallieImage"
 import NorwayImage from "./pics/NorwayImage"
 import CribbageImage from "./pics/CribbageImage"
-import FamilyImage from "./pics/FamilyImage"
+import BoysImage from "./pics/BoysImage"
 
 const Obituary = () => (
     <>
@@ -71,7 +71,7 @@ const Obituary = () => (
                 <NorwayImage />
             </div>
             <div style={{ width: `480px`, margin: `0 12px`, marginBottom: `36px`, padding: "12px" }}>
-                <FamilyImage />
+                <BoysImage />
             </div>
         </div>
         <p>
