@@ -13,10 +13,10 @@ import Img from "gatsby-image"
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-const FamilyImage = () => {
+const SiblingsImage = () => {
   const data = useStaticQuery(graphql`
     query {
-      family: file(relativePath: { eq: "family.JPG" }) {
+      siblings: file(relativePath: { eq: "siblings.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 1500) {
             ...GatsbyImageSharpFluid
@@ -26,7 +26,7 @@ const FamilyImage = () => {
     }
   `)
 
-  return <Img fluid={data.family.childImageSharp.fluid} alt="Bud with Sallie and his four boys" />
+  return <Img fluid={data.siblings.childImageSharp.fluid} alt="Bud as a child with his siblings in Waterloo, Iowa" />
 }
 
-export default FamilyImage
+export default SiblingsImage
