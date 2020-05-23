@@ -1,6 +1,6 @@
 import React from 'react'
 
-import SiblingsImage from "./pics/BoysImage"
+import SiblingsImage from "./pics/SiblingsImage"
 import SkatingImage from "./pics/SkatingImage"
 import SallieImage from "./pics/SallieImage"
 import NorwayImage from "./pics/NorwayImage"
@@ -23,8 +23,8 @@ const Obituary = () => (
             and directed the DECA program, helping many students to achieve state awards, and coached the boys 
             tennis team and girls fast-pitch softball pitchers.
         </p>
-        <div style={{ display: `flex`, flexFlow: `row wrap`, justifyContent: `center` }}>
-            <div style={{ width: `360px`, margin: `0 12px`, marginBottom: `24px` }}>
+        <div style={{ display: `flex`, flexFlow: `column wrap`, justifyContent: `center`, alignItems: `center`, }}>
+            <div style={{ width: `100%`, maxWidth:`360px`, margin: `0 12px`, marginBottom: `24px` }}>
                 <SiblingsImage />
             </div>
         </div>
@@ -35,8 +35,8 @@ const Obituary = () => (
             They also frequently visited their familes in Iowa, especially Sallie’s large family who farmed near 
             George, IA.
         </p>
-        <div style={{ display: `flex`, flexFlow: `row wrap`, justifyContent: `center` }}>
-            <div style={{ width: `480px`, margin: `0 12px`, marginBottom: `36px` }}>
+        <div style={{ display: `flex`, flexFlow: `column wrap`, justifyContent: `center`, alignItems: `center`, }}>
+            <div style={{ width: `100%`, maxWidth:`480px`, margin: `0 12px`, marginBottom: `36px` }}>
                 <SallieImage />
             </div>
         </div>
@@ -55,7 +55,7 @@ const Obituary = () => (
             pride in giving every player an equal chance to succeed and he passed his love of sports down to his sons. 
         </p>
         <div style={{ display: `flex`, flexFlow: `row wrap`, justifyContent: `center` }}>
-            <div style={{ width: `360px`, margin: `0 12px`, marginBottom: `36px`, padding: "12px" }}>
+            <div style={{ width: `100%`, maxWidth:`360px`, margin: `0 12px`, marginBottom: `36px`, padding: "12px" }}>
                 <SkatingImage />
             </div>
         </div>
@@ -67,10 +67,10 @@ const Obituary = () => (
             for their immediate and extended family and friends.
         </p>
         <div style={{ display: `flex`, flexFlow: `column wrap`, justifyContent: `center`, alignItems: `center`, }}>
-            <div style={{ width: `480px`, margin: `0 12px`, marginBottom: `36px`, padding: "12px" }}>
+            <div style={{ width: `100%`, maxWidth:`480px`, margin: `0 12px`, marginBottom: `36px`, padding: "12px" }}>
                 <NorwayImage />
             </div>
-            <div style={{ width: `480px`, margin: `0 12px`, marginBottom: `36px`, padding: "12px" }}>
+            <div style={{ width: `100%`, maxWidth:`480px`, margin: `0 12px`, marginBottom: `36px`, padding: "12px" }}>
                 <BoysImage />
             </div>
         </div>
@@ -84,8 +84,8 @@ const Obituary = () => (
             Memorial donations: Union Gospel Mission, Dept. of Donor Services, 77 Ninth Street, St. Paul, MN
             55101. 651-444-5801 or <a href="https://app.mobilecause.com/f/22sd/n">this link</a>.
         </p>
-        <div style={{ display: `flex`, flexFlow: `row wrap`, justifyContent: `center` }}>
-            <div style={{ width: `400px`, margin: `0 12px`, marginBottom: `36px`, padding: "12px" }}>
+        <div style={{ display: `flex`, flexFlow: `column wrap`, justifyContent: `center`, alignItems: `center`, }}>
+            <div style={{ width: `100%`, maxWidth:`400px`, margin: `0 12px`, marginBottom: `36px`, padding: "12px" }}>
                 <CribbageImage />
             </div>
         </div>
