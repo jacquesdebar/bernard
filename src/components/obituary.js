@@ -36,7 +36,7 @@ const Obituary = () => (
             George, IA.
         </p>
         <div style={{ display: `flex`, flexFlow: `column wrap`, justifyContent: `center`, alignItems: `center`, }}>
-            <div style={{ width: `100%`, maxWidth:`480px`, margin: `0 12px`, marginBottom: `36px` }}>
+            <div style={{ width: `100%`, margin: `0 0 36px 0`}}>
                 <SallieImage />
             </div>
         </div>

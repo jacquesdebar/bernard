@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
       <div style={{ 
           margin: `4vw auto`,
           paddingLeft: `2.3vw`,
-          paddingRight: `2.3w`,
+          paddingRight: `2.3vw`,
           borderRadius: `30px`,
           border: `10px solid #423e3c`,
           maxWidth: 840,
@@ -38,7 +38,7 @@ const Layout = ({ children }) => {
           style={{
             margin: `0 auto`,
             maxWidth: 840,
-            padding: `0 1.0875rem 1.45rem`
+            padding: `0 1.0875rem 1.45rem 1.0875rem `
           }}
         >
           <main style={{ minHeight: `70vh`}}>{children}</main>
