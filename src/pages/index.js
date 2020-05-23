@@ -8,7 +8,7 @@ import RoseImage from "../components/pics/RoseImage"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="In Memoriam" />
     <h2>Memorial Celebration of Life</h2>
     <p>The DeBar family is planning a celebration of Bud's life in the next one 
       to two months. It will likely be a live, online event. Please check back 
